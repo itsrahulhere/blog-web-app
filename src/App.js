@@ -12,6 +12,7 @@ import Alert from './components/Alert';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import { useState } from 'react';
+//import HomeNotes from './components/HomeNotes';
 
 function App() {
   const [alert, setAlert] = useState(null);
@@ -47,6 +48,7 @@ function App() {
             </Switch>
           </div>
         </Router>
+
       </NoteState>
     </>
   );
